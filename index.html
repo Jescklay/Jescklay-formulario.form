@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="envia.php">
+    <link rel="stylesheet" href="responsivo.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <section class="formulario">
+        <div class="interface">
+          <h2 class="titulo">FALA <span>COMIGO!</span></h2>
+          <form method="post" action="envia.php">
+              <div class="input-single">
+                <input class="input" type="text" id="nome" requered autocomplete="of" placeholder="Seu nome completo"><!--(required) O campo tem que ser obrigatorio-->
+                <label for="nome"></label>
+              </div>
+              <div class="input-single">
+                <input class="input" type="text" id="nome" name="email" requered autocomplete="of" placeholder="Seu email"><!--(required) O campo tem que ser obrigatorio-->
+                <label for="nome"></label>
+              </div>
+              <div class="input-single">
+                <input class="input" type="text" id="nome" name="telefone" requered autocomplete="of" placeholder="Seu telefone"><!--(required) O campo tem que ser obrigatorio-->
+                <label for="nome"></label>
+              </div>
+            <div class="btn"><input type="submit" value="Enviar"><i class="bi bi-envelope-fill"></i></div> 
+        </form>
+        </div><!--Interface-->
+      </div><!--Formulario-->
+    </section><!--formulario-->
+  </main>
+</body>
+</html>
